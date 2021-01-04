@@ -200,6 +200,7 @@ function App() {
 	return (
 		<div>
 			{/* <Form /> */}
+
 			<Chart />
 			{/* <Message /> */}
 		</div>
