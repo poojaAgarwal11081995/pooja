@@ -1,7 +1,7 @@
 /** @format */
 
 import React from "react";
-
+import "./Chart.css";
 import DatePicker from "./Date";
 
 import { ReactChartJs } from "@cubetiq/react-chart-js";
@@ -48,7 +48,7 @@ function Chart(props) {
 				Refresh
 			</button> */}
 
-			<div style={{ width: "500px", height: "300px" }}>
+			<div className="header">
 				<ReactChartJs
 					chartConfig={{
 						type: "line",

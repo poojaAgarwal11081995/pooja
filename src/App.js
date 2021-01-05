@@ -196,12 +196,15 @@ import React from "react";
 import Form from "./component/Form";
 import Chart from "./component/Chart";
 import Message from "./component/Message";
+import "./index.css";
+import Activity from "./component/Activity";
 function App() {
 	return (
 		<div>
 			{/* <Form /> */}
+			<Activity />
 
-			<Chart />
+			{/* <Chart /> */}
 			{/* <Message /> */}
 		</div>
 	);
